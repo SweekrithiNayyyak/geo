@@ -22,6 +22,7 @@ ground1=new ground(400,685)
 ham=new hamer(200,200)
 tone1=new stone(300,100)
 band=new strubber(600,500)
+sand1=new sand(10,100);
 	Engine.run(engine);
   
 }
@@ -34,6 +35,7 @@ function draw() {
   ham.display();
   tone1.display()
   band.display();
+  sand1.display();
   drawSprites();
  
 }
